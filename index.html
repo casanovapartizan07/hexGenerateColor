@@ -10,6 +10,9 @@
 			type="image/x-icon"
 		/>
 		<style>
+			*::-webkit-scrollbar {
+				width: 0;
+			}
 			body {
 				box-sizing: border-box;
 				margin: 0;
@@ -35,7 +38,6 @@
 			.hex {
 				width: 100%;
 				height: 100%;
-				background-color: #efed40;
 				display: flex;
 				justify-content: center;
 				align-items: center;
@@ -79,14 +81,14 @@
 	<body>
 		<h1 class="title">Click any color😎</h1>
 		<div class="container">
-			<div class="hex">#efed40</div>
-			<div class="hex">#abc233</div>
-			<div class="hex">#efed40</div>
-			<div class="hex">#abc233</div>
-			<div class="hex">#efed40</div>
-			<div class="hex">#abc233</div>
-			<div class="hex">#efed40</div>
-			<div class="hex">#abc233</div>
+			<div class="hex"></div>
+			<div class="hex"></div>
+			<div class="hex"></div>
+			<div class="hex"></div>
+			<div class="hex"></div>
+			<div class="hex"></div>
+			<div class="hex"></div>
+			<div class="hex"></div>
 		</div>
 		<button class="btn btn-refresh">Refresh</button>
 		<div class="cursor"></div>
